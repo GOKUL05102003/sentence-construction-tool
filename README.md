@@ -1,8 +1,9 @@
 # Sentence Construction Tool 🎯
 
-This is a React-based quiz application built for the **CA MONK Frontend Internship Assignment**. The app allows users to construct meaningful sentences by filling in the blanks using drag-and-drop, all under a timer constraint.
+This is a React-based quiz application built for the **CA MONK Frontend Internship Assignment**. The app allows users to construct meaningful sentences by filling in the blanks, all under a timer constraint.
 
 ## Application link 
+
 - https://sentence-construction-tool-five.vercel.app/
 
 ## 🚀 Features
