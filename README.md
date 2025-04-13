@@ -25,7 +25,7 @@ This is a React-based quiz application built for the **CA MONK Frontend Internsh
 ## 🧪 Run Locally
 
 ```bash
-git clone https://github.com/GOKUL05102003/Sentence-Construction.git
-cd Sentence-Construction
+git clone https://github.com/GOKUL05102003/sentence-construction-tool.git
+cd sentence-construction-tool
 npm install
 npm run dev
