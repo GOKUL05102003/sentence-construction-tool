@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.feedback-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom right, #f0f4ff, #fffaf0);
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.08);
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.feedback-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.restart-btn {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 10px;
+}
+
+.restart-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.score-text {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+  background: #e0f7e9;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #a5d6a7;
+}
+
+.dynamic-message {
+  text-align: center;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 24px;
+  background: #fff5e1;
+  padding: 16px;
+  border-left: 6px solid #ffa726;
+  border-radius: 8px;
+}
+
+.feedback-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feedback-item {
+  border-left: 6px solid;
+  padding: 18px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.feedback-item.correct {
+  border-color: #4caf50;
+}
+
+.feedback-item.incorrect {
+  border-color: #e53935;
+}
+
+.prompt-label {
+  font-weight: 500;
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.response-status {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.correct-text {
+  color: #2e7d32;
+}
+
+.incorrect-text {
+  color: #c62828;
+}
+
+.correct-label {
+  font-weight: 500;
+  margin-top: 12px;
+  font-size: 15px;
+  color: #444;
+}
+
+.sentence {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-top: 6px;
+}
+
+.sentence strong {
+  color: #1565c0;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .feedback-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .restart-btn {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .score-text,
+  .dynamic-message {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .sentence {
+    font-size: 16px;
+  }
+}
