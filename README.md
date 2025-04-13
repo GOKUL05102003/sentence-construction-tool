@@ -5,8 +5,6 @@ This is a React-based quiz application built for the **CA MONK Frontend Internsh
 ## 🚀 Features
 
 - Built with **React + Vite**
-- Styled using **Tailwind CSS**
-- Drag-and-drop functionality for answers
 - Timer with visual and audio alerts
 - Animated progress bar
 - Login and Signup pages with default credentials
@@ -15,10 +13,10 @@ This is a React-based quiz application built for the **CA MONK Frontend Internsh
 ## 🛠️ Tech Stack
 
 - React + Vite
-- Tailwind CSS
-- Shadcn/UI
-- React DnD
-- Firebase (optional for auth)
+- HTML 
+- CSS
+- JS
+- ReactJs
 
 ## 🧪 Run Locally
 
